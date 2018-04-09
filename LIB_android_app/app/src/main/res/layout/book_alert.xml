@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:layout_marginRight="50dp"
+                android:padding="10dp"
+                android:hint="ISBN no"
+                android:id="@+id/al_isbnno"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:layout_marginRight="50dp"
+                android:padding="10dp"
+                android:id="@+id/al_booktitle"
+                android:hint="Book Title"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:layout_marginRight="50dp"
+                android:padding="10dp"
+                android:id="@+id/al_booktype"
+                android:hint="Book Type"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:layout_marginRight="50dp"
+                android:padding="10dp"
+                android:id="@+id/al_authorname"
+                android:hint="Author Name"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:layout_marginRight="50dp"
+                android:padding="10dp"
+                android:id="@+id/al_quantity"
+                android:hint="Quantity"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:layout_marginRight="50dp"
+                android:padding="10dp"
+                android:id="@+id/al_edition"
+                android:hint="Edition"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:layout_marginRight="50dp"
+                android:padding="10dp"
+                android:id="@+id/al_price"
+                android:hint="Price"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:layout_marginRight="50dp"
+                android:padding="10dp"
+                android:id="@+id/al_nopages"
+                android:hint="No. pages"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:layout_marginRight="50dp"
+                android:padding="10dp"
+                android:id="@+id/al_pubname"
+                android:hint="Pub_Name"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:layout_marginRight="50dp"
+                android:padding="10dp"
+                android:id="@+id/al_pubadd"
+                android:hint="Pub_Address"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:layout_marginRight="50dp"
+                android:padding="10dp"
+                android:id="@+id/al_emailid"
+                android:hint="E_mail ID"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:layout_marginRight="50dp"
+                android:padding="10dp"
+                android:id="@+id/al_contact"
+                android:hint="Contact No."/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

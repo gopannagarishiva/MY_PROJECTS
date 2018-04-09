@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <fragment
+            android:name="com.example.test.se_project.home"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/ImageButtonsFragment">
+        </fragment>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="10"
+        android:background="?attr/colorButtonNormal"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:id="@+id/searchid"
+            android:layout_weight="1"
+            android:background="@android:drawable/ic_search_category_default" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:id="@+id/addid"
+            android:layout_weight="1"
+            android:background="@mipmap/addicon" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:id="@+id/updateid"
+            android:layout_weight="1"
+            android:background="@mipmap/refresh" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/homeid"
+            android:layout_weight="1"
+            android:background="@mipmap/unnamed" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:id="@+id/checkincheckoutid"
+            android:layout_weight="1"
+            android:background="@mipmap/checkincheckout" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:id="@+id/payid"
+            android:layout_weight="1"
+            android:background="@mipmap/search89" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:id="@+id/logoutid"
+            android:layout_weight="1"
+            android:background="@android:drawable/ic_lock_power_off" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

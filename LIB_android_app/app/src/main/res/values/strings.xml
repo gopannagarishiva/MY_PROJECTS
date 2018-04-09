@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">SE_Project</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="spinnerItems1">
+        <item>Select</item>
+        <item>New Student"</item>
+        <item>New Book</item>
+    </string-array>
+    <string-array name="SpinnerUpdate">
+        <item>Select</item>
+        <item>Delete Student"</item>
+        <item>Delete Book</item>
+        <item>Edit Student</item>
+        <item>Edit Book</item>
+    </string-array>
+    <string-array name="UpdateStudent">
+        <item>Select</item>
+        <item>FNAME</item>
+        <item>LNAME</item>
+        <item>COURSE</item>
+        <item>ADDRESS</item>
+    </string-array>
+    <string-array name="UpdateBook">
+        <item>Select</item>
+        <item>BOOKS_TITLE</item>
+        <item>BOOKS_TYPE</item>
+        <item>BOOKS_AUTHOR_NAME</item>
+        <item>BOOKS_QUANTITY</item>
+        <item>BOOKS_EDITION</item>
+        <item>BOOKS_PRICE</item>
+        <item>BOOKS_PAGES</item>
+        <item>BOOKS_PUB_NAME</item>
+        <item>BOOKS_PUB_ADDRESS</item>
+        <item>BOOKS_EMAIL</item>
+        <item>BOOKS_CONTACT</item>
+
+
+    </string-array>
+</resources>
+
