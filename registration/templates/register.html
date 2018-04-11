@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block body_block %}
+<h1> Registration</h1>
+{% if registration_key %}
+<form method="POST">
+  {{ registration_key.as_p }}
+  {% csrf_token %}
+  <input type="submit" value="Submit">
+</form>
+{% endif %}
+{% endblock %}
